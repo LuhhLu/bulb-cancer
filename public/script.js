@@ -1,6 +1,6 @@
-import { Scene, PerspectiveCamera, WebGLRenderer, Color, Vector3 } from 'https://cdn.skypack.dev/three';
-import { OrbitControls } from 'https://cdn.skypack.dev/three/examples/jsm/controls/OrbitControls.js';
-import { createSculpture } from 'shader-park-core.esm.js';
+import { Scene, PerspectiveCamera, WebGLRenderer, Color, Vector3 } from 'three';
+import { OrbitControls } from 'orbit-controls';
+import { createSculpture } from 'shader-park-core';
 import { spCode } from 'sp-code';
 
 let scene = new Scene();
