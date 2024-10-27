@@ -1,5 +1,5 @@
-import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import { Scene, PerspectiveCamera, WebGLRenderer, Color, Vector3 } from 'https://unpkg.com/three@0.138.3/build/three.module.js';
+import { OrbitControls } from 'https://unpkg.com/three@0.138.3/examples/jsm/controls/OrbitControls.js';
 import { createSculpture } from 'shader-park-core';
 import { spCode } from 'sp-code';
 
