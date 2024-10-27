@@ -47,9 +47,9 @@ document.addEventListener('DOMContentLoaded', () => {
             mouseText.style.left = `${e.clientX + 15}px`;
 
             if (isMouseOverElement(e, entryArea)) {
-                mouseText.innerText = 'Ask anything about me Here! 👏';
+                mouseText.innerText = 'Ask Here!';
             } else if (isMouseOverElement(e, threeContainer)) {
-                mouseText.innerText = 'Voice Control By Click Me 🤫';
+                mouseText.innerText = 'Voice Mode';
             } else {
                 mouseText.innerText = '';
             }
